@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 
-folder_path = "data/"
+folder_path = "data/adrian"
 csv_files = os.listdir(folder_path)
 data = []
 
